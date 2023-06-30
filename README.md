@@ -2,7 +2,7 @@
 
 ## SETUP
 
-### Create a virtual enviroment
+### Create a virtual environment
 
 ```shell
 # with default
@@ -11,7 +11,7 @@ python -m venv .venv
 python3.6 -m venv .venv
 ```
 
-### Activate the venv
+### Activate the .venv
 
 ```shell
 source .venv/Scripts/activate
@@ -36,7 +36,7 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
-## RUN ON BROWSER
+## RUN IN A BROWSER
 
 ```shell
 jupyter-notebook
